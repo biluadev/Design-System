@@ -48,7 +48,7 @@ declare const Button: _stitches_react_types_styled_component.StyledComponent<"bu
         base: string;
         tall: string;
     };
-    radio: {
+    radii: {
         px: string;
         xs: string;
         sm: string;

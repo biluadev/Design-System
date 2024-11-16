@@ -35,8 +35,8 @@ var space = {
   80: "20rem"
 };
 
-// src/radio.ts
-var radio = {
+// src/radii.ts
+var radii = {
   px: "1px",
   xs: "4px",
   sm: "6px",
@@ -88,6 +88,6 @@ export {
   fontWeights,
   fonts,
   lineHeights,
-  radio,
+  radii,
   space
 };

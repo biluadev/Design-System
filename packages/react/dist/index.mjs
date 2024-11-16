@@ -52,7 +52,7 @@ var space = {
   64: "16rem",
   80: "20rem"
 };
-var radio = {
+var radii = {
   px: "1px",
   xs: "4px",
   sm: "6px",
@@ -113,7 +113,7 @@ var {
     fontSizes,
     fontWeights,
     lineHeights,
-    radio,
+    radii,
     space
   }
 });
@@ -123,7 +123,8 @@ var Button = styled("button", {
   fontFamily: "$default",
   backgroundColor: "$ignite500",
   borderRadius: "$md",
-  padding: "$4"
+  padding: "$4",
+  border: 0
 });
 export {
   Button

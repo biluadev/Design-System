@@ -33,7 +33,7 @@ declare const space: {
     80: string;
 };
 
-declare const radio: {
+declare const radii: {
     px: string;
     xs: string;
     sm: string;
@@ -76,4 +76,4 @@ declare const lineHeights: {
     tall: string;
 };
 
-export { colors, fontSizes, fontWeights, fonts, lineHeights, radio, space };
+export { colors, fontSizes, fontWeights, fonts, lineHeights, radii, space };

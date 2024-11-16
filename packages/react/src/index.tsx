@@ -4,5 +4,6 @@ export const Button = styled('button', {
     fontFamily: '$default',
     backgroundColor: '$ignite500',
     borderRadius: '$md',
-    padding: '$4'
+    padding: '$4',
+    border: 0
 })
