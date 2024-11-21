@@ -10,6 +10,14 @@ export default {
         alt: 'Bilua´s foto github perfil',
     },
 
+    argTypes: {
+        src: {
+            control: {
+                type: 'text'
+            }
+        }
+    }
+
 } as Meta<AvatarProps>
 
 export const Primary: StoryObj<AvatarProps> = {}
